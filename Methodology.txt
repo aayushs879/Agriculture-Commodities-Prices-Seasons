@@ -1,0 +1,21 @@
+﻿METHODOLOGY
+
+
+
+
+Task - 1 : Used sklearn’s isolation forest algorithm to obtain regions where the probability of getting a value is low. Usual outlier detection methods such as using z scores and interquantile ranges for removal of outliers involve an explicit assumption that the distribution is normal. Since in all the values no distributions were near to normal I preferred using this method. This gives an anomaly score for each datapoint in the distribution. The range of these anomaly scores is     (-1, 1). The lower the score the lower the probability of having a point in the distribution. Generally the scores below -0.2 corresponds to an outlier. 2000 odd data-points were filtered using this method from the CMO_monthy data while no data points were filtered from the mandi data.
+
+
+
+
+Task - 2: Each time series comprises of 4 components i.e.
+* Level The average value in the series.
+* Trend: The increasing or decreasing value in the series.
+* Seasonality: The repeating short-term cycle in the series.
+* Noise: The random variation in the series.
+A time series is a mathematical model of these four components either added or multiplied which makes the additive model and multiplicative model respectively. To get the nature of seasonality i used statsmodels’ seasonal_decompose which performs decomposition of the series according the model specified. I decomposed the data (modal_price with time as index) and then checked for the autocorrelation function of the residual part. The higher acf score corresponds to the type of seasonality. I used only those apmc-crop clusters where we had data for whole 12 months.
+Then deasonalized prices according to the model estimated i.e subtract the seasonality component from modal_price for the additive model and divide by the same if the model estimated was multiplicative.
+Task 3 : Here  I sorted the values according to time and plotted the graphs. I have shared 100 of those in the repo here. Its too clumsy to upload every single one of them. If you want to see all of those you can just execute the third notebook i.e Price Comparison.ipynb
+
+
+Task 4 : For this I calculated variation coefficient of the max price of each apmc-crop cluster and sorted them in descending order to get the top 40 values. Then searched the data for  these clusters having the max_price value which falls out of the 3 std devs to get the idea of the Month and Year when they had such fluctuations.

@@ -1,0 +1,88 @@
+﻿Final Submission Report
+
+
+Task - 1 : Outlier Filtering 
+
+
+The outliers found by univariate analysis of numeric variables in CMO monthly dataset is shown by the following graphs.
+  
+
+The values falling in the red region are the outlier.
+2000 odd datapoints were removed from the dataset as those were considered as outliers.
+The cleaned file is filtered_Monthly_data.csv .
+
+
+
+
+
+
+
+
+
+
+  
+The outliers in msprice is hown by the following.
+  
+
+No outliers whatsoever was found in the datasets.
+
+
+
+
+
+
+Task 2- Detection of seasonality type and deseasonalization of price-
+
+
+The method adopted was seasonal decomposition of modal prices according to both models and check the autocorrelation function of the residual part after decomposition to determine the nature of seasonality.
+Filtered the datasets according to those (apmc-commodity) clusters for which we had data of whole 12 months.
+The file Seasonality_type.csv contains all such apmc-commodity clusters according to the nature of seasonality it follows. Here is a peek into that.
+
+
+  
+ 
+
+
+After detecting the nature of seasonality a apmc-crop cluster follows its easy to deseasonalize the price. The same function does the job if only when passed with an argument (deseasonalize = True)
+Then we have deseasonalized modal_prices for the dataset.
+
+
+
+
+The file containing this information is Deseasonalized_price.csv 
+
+
+
+
+
+
+
+
+
+
+Task -3 Price comparison with minimum support price and deseasonalized price.
+
+
+A sample comparison of different prices of aamgaon- paddy(unhusked) is following.
+  
+
+Execute the third notebook named Price comparison.ipynb to generate comparison plots for all the clusters where enough data is available.
+
+
+
+
+
+
+
+
+
+
+
+
+Task 4 - Flagset of highest price fluctuations-
+
+
+First took the top 40 (apmc-crop) clusters which showed the most fluctuation. Then exctracted the season and actual price information about these clusters by choosing those price values which fell out of 3 std devs from the mean. Here is a peek to the detailed information. 
+  
+
+The file with the whole information is Flagset_highest_fluctuation.csv .
