@@ -14,6 +14,7 @@ Monthly_data_cmo.csv - raw file obtained for APMC monthly data
 Price Comparison.ipynb - Notebook for solution of Objective 3
 Readme.md - this file
 Seasonality_type.csv - The file which contains the information of Seasonality type(additive or multiplicative)
-cleaned_monthly_data - The file with all the datapoints of apmc-crop clusters for which we had data of all 12 months
+cleaned_monthly_data.csv - The file with all the datapoints of apmc-crop clusters for which we had data of all 12 months
 filtered_monthly_data.csv - Monthly data with outliers filtered.
 filtered_cmo_mandi.csv - same as CMO_MSP_Mandi as we dont had any outliers here.
+
