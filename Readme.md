@@ -33,3 +33,5 @@ File description
 13.filtered_monthly_data.csv - Monthly data with outliers filtered.
 
 14.filtered_cmo_mandi.csv - same as CMO_MSP_Mandi as we dont had any outliers here.
+
+15.comparisons - svg files of plots of price comparisons of apmc-crop clusters.
