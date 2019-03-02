@@ -1,0 +1,90 @@
+APMC,Commodity,Month,Year,max_price
+Barshi,Brinjal,October,2016,4163
+Barshi,Tomato,July,2016,2445
+Barshi,Cabbage,July,2016,1486
+Barshi,Green Chilli,July,2016,5190
+Barshi,Flower,July,2016,1641
+Barshi,Flower,October,2016,1447
+Barshi,Lemon,September,2016,4647
+Barshi,Cluster Bean,October,2016,4821
+Barshi,Cucumber,October,2016,1590
+Barshi,Ladies Finger,July,2016,2105
+Barshi,Ladies Finger,October,2016,2106
+Barshi,Ladies Finger,September,2016,1850
+Barshi,Capsicum,July,2016,3569
+Barshi,Bitter Gourd,July,2016,3156
+Barshi,Bitter Gourd,October,2016,2295
+Pune,Squash Gourd,June,2016,6300
+Vadgaon Peth,Tomato,June,2016,6706
+Mumbai,Squash Gourd,April,2016,3550
+Mumbai,Squash Gourd,June,2016,4727
+Mumbai,Squash Gourd,May,2016,3952
+Aurangabad,Tomato,July,2016,3321
+Aurangabad,Tomato,June,2016,5528
+Solapur,Papai,April,2015,1367
+Solapur,Papai,June,2015,1425
+Solapur,Papai,June,2016,1890
+Shahada,Maize,April,2015,6713
+Junnar,Onion,August,2015,5150
+Junnar,Onion,November,2015,4588
+Junnar,Onion,October,2015,3961
+Junnar,Onion,September,2015,5420
+Pune-Pimpri,Onion,August,2015,4574
+Pune-Pimpri,Onion,November,2015,3875
+Pune-Pimpri,Onion,September,2015,4593
+Lasur Station,Onion,August,2015,5033
+Lasur Station,Onion,September,2015,4300
+Kamthi,Methi (Bhaji),October,2014,9000
+Kamthi,Methi (Bhaji),October,2015,8810
+Kamthi,Methi (Bhaji),September,2015,9125
+Pandharpur,Tomato,July,2016,3203
+Pandharpur,Tomato,June,2016,4742
+Pandharpur,Tomato,May,2016,3019
+Pandharpur,Tomato,November,2015,2977
+Jalgaon,Onion,August,2015,4060
+Jalgaon,Onion,October,2015,2835
+Jalgaon,Onion,September,2015,4235
+Mumbai,Brinjal,October,2016,8400
+Koregaon,Onion,August,2015,3800
+Koregaon,Onion,November,2015,3225
+Koregaon,Onion,September,2015,4925
+Satara,Onion,August,2015,4856
+Satara,Onion,October,2015,3650
+Satara,Onion,September,2015,4888
+Kopargaon,Onion,August,2015,5025
+Kopargaon,Onion,October,2015,3275
+Kopargaon,Onion,September,2015,4638
+Jalgaon,Tomato,July,2016,4258
+Jalgaon,Tomato,June,2016,5385
+Rahuri-Vambori,Onion,August,2015,5008
+Rahuri-Vambori,Onion,October,2015,3745
+Rahuri-Vambori,Onion,September,2015,5017
+Shirpur,Onion,August,2015,4109
+Shirpur,Onion,September,2015,3966
+Aurangabad,Onion,August,2015,3981
+Aurangabad,Onion,September,2015,4030
+Mangalwedha,Tomato,July,2016,3443
+Mangalwedha,Tomato,June,2016,4988
+Mangalwedha,Tomato,November,2015,3065
+Kamthi,Onion,August,2015,5353
+Kamthi,Onion,September,2015,7350
+Lonand,Onion,August,2015,4206
+Lonand,Onion,October,2015,3169
+Lonand,Onion,September,2015,4444
+Solapur,Tomato,June,2016,4462
+Solapur,Tomato,November,2015,3316
+Pandharpur,Onion,August,2015,4686
+Pandharpur,Onion,October,2015,3664
+Pandharpur,Onion,September,2015,4837
+Akluj,Onion,August,2015,4553
+Akluj,Onion,November,2015,3421
+Akluj,Onion,October,2015,3763
+Akluj,Onion,September,2015,4688
+Kamthi,Spinach,August,2016,3574
+Kamthi,Spinach,July,2015,3080
+Kamthi,Spinach,July,2016,3268
+Kamthi,Spinach,October,2014,3232
+Patan,Tomato,June,2016,4497
+Patan,Tomato,November,2015,3025
+Aurangabad,Papai,August,2016,2233
+Aurangabad,Papai,June,2016,3047
